@@ -48,8 +48,6 @@ button {
 }
 
 #inventory li {
-  display: inline-block;
-  /*float: left;*/
+  display: block;
   height: 1em;
-  width: 100%;
 }
