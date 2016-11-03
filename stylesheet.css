@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.item {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+#market .fruit {
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.apple {
+  background-color: red;
+}
+
+.banana {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.grape {
+  background-color: purple;
+}
+
+button {
+  margin-top: 1em;
+}
+
+#inventory {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+}
+
+#inventory ul {
+  float: left;
+  padding: 0;
+  width: 25%;
+}
+
+#inventory li {
+  display: inline-block;
+  /*float: left;*/
+  height: 1em;
+  width: 100%;
+}
