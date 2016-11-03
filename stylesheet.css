@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-.item {
+#market > div {
   float: left;
   text-align: center;
   width: 25%;
@@ -14,19 +14,19 @@ body {
   width: 100px;
 }
 
-.apple {
+.apple .fruit {
   background-color: red;
 }
 
-.banana {
+.banana .fruit {
   background-color: yellow;
 }
 
-.orange {
+.orange .fruit {
   background-color: orange;
 }
 
-.grape {
+.grape .fruit {
   background-color: purple;
 }
 
